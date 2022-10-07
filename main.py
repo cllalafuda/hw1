@@ -1,7 +1,8 @@
-a = int(input())
-b = int(input())
-c = int(input())
+a = float(input("Input a: "))
+b = float(input("Input b: "))
+c = float(input("Input c: "))
 
+a = a or 1
 
 d = b**2 - 4 * a * c
 
