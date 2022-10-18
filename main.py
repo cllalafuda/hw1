@@ -1,6 +1,11 @@
-a = float(input("Input a: "))
-b = float(input("Input b: "))
-c = float(input("Input c: "))
+try:
+    a = float(input("Input a: "))
+    b = float(input("Input b: "))
+    c = float(input("Input c: "))
+except ValueError:
+    print("введённые значения не являются числовыми")
+    exit(1)
+
 
 a = a or 1
 
